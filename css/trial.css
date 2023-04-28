@@ -54,6 +54,11 @@ nav ul li a {
 }
 
 
+#navbar_logoz {
+    width: 0px;   
+}
+
+
 
 h1 {
     font-family: 'Norican', cursive;
@@ -81,7 +86,7 @@ h1 {
 }
 
 #newsletter_img {
-
+    margin-right: 1%;
     margin-top: 3%;
     margin-left: 4%;
     width: 60%;
@@ -116,14 +121,24 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
 }
 
 section article {
     margin-top: auto;
     margin-right: auto;
     text-align: center;
+    background-image: url(/Images/orange_newsletter_pic.png);
+    background-size: cover;
+    opacity: .5;
+    height: 100%;
+    font-size: 1.3vw;
 }
 
+section article p {
+    opacity: 1;
+    color: black;
+}
 
 
 
@@ -142,6 +157,8 @@ section article {
 @media (max-width:570px) {
     h1 {
         font-size: 7vw;
+        margin-left:27%;
+        padding-top: 5%;
     }
 
     nav ul li {
@@ -151,46 +168,54 @@ section article {
     }
 
     #navbar_logo {
-        width: 15%;
+        width: 0px;
         left: 5px;
     }
 
-    #navbar_logo {
-        width: 0px;
+    #navbar_logoz {
+        width: 20vw;   
+        top: 0px; 
+        position: absolute; 
     }
 
     nav ul {
         display: block;
         width: 100%;
-        
+
     }
 
     nav ul li a {
         padding: 0px;
-        
+
     }
 
     #order {
         background-color: #31525b;
         color: #fae6b1;
         border-radius: 0px;
-        
-
     }
+
+    section article {
+        font-size: 5vw;
+    }
+
+
 
     #newsletter {
         display: block;
     }
 
     #newsletter_img {
-        margin-top: 0px;
+        margin-bottom: 0px;
         margin: 0px 0px;
         width: 100%;
         margin: 25px 0px;
     }
+
     #main_picture {
         margin-top: 25px;
         height: 60vw;
+        position: relative;
     }
 }
 
@@ -240,6 +265,7 @@ section article {
         left: 25px;
 
     }
+
     #main_picture {
         height: 50vw;
     }
@@ -263,5 +289,5 @@ section article {
         font-size: 6vw;
     }
 
-   
+
 }
