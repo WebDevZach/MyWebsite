@@ -1,6 +1,82 @@
+/*Html styles*/
+html {
+    background-color: white;
+}
 
-p {
+
+
+/*Body styles*/
+body {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fae6b1;;
+}
+
+
+
+
+/* homepage header styles */
+ 
+
+#homepage-picture {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    }
+
+
+
+h1{
     font-family: 'Norican', cursive;
-    
-    font-size: 50px;
+    position: absolute;
+    top: -2%;
+    left: 22%;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+    rotate: -10deg;
+}
+
+/*Media Query for fonts*/
+@media (max-height:1100px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-height:880px) {
+    h1 {
+        font-size: 3.25rem;
+    }
+}
+
+@media (max-height:780px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-height:660px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-height:550px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:1300px) {
+    h1 {
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width:1400px) {
+    h1 {
+        font-size: 6rem;
+    }
 }
