@@ -1,16 +1,17 @@
 /*Html styles*/
 html {
-    background-color: white;
+    background-color: #fae6b1;
+    
 }
 
 
 
 /*Body styles*/
 body {
-    width: 97%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fae6b1;;
+    
 }
 
 
@@ -18,6 +19,22 @@ body {
 
 /* homepage header styles */
  
+nav ul{
+display: flex;
+background-color: #31525b;
+justify-content: right;
+}
+
+nav ul li {
+    padding: 1% 5%;
+}
+
+nav ul li a {
+    color: white;
+}
+
+
+
 
 #homepage-picture {
     width: 100%;
@@ -30,53 +47,46 @@ body {
 h1{
     font-family: 'Norican', cursive;
     position: absolute;
-    top: -2%;
-    left: 22%;
-    font-size: 5rem;
-    font-weight: 300;
+    top: 10%;
+    left: 20%;
+    font-size: 7em;
+    line-height: 100%;
     color: white;
     rotate: -10deg;
 }
 
 /*Media Query for fonts*/
-@media (max-height:1100px) {
+
+@media (max-width:735px) {
     h1 {
-        font-size: 4rem;
+        font-size: 6em;
     }
 }
 
-@media (max-height:880px) {
+@media (max-width:625px) {
     h1 {
-        font-size: 3.25rem;
+        font-size: 5em;
     }
 }
 
-@media (max-height:780px) {
+@media (max-width:530px) {
     h1 {
-        font-size: 3rem;
+        font-size: 4em;
     }
 }
-
-@media (max-height:660px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-height:550px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width:1300px) {
-    h1 {
-        font-size: 5.5rem;
-    }
-}
-
 @media (min-width:1400px) {
     h1 {
-        font-size: 6rem;
+        font-size: 8.5em;
+    }
+}
+
+@media (max-width:420px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+@media (max-width:300px) {
+    h1 {
+        font-size: 2em;
     }
 }
