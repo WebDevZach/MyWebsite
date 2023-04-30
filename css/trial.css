@@ -44,7 +44,14 @@ nav ul li {
 nav ul li a {
     color: #fae6b1;
     padding: 15px;
+    transition-duration: 800ms;
 
+}
+
+nav ul li a:hover{
+    color: #ffa101;
+    border-bottom:#fae6b1 solid 1px;
+    transition-duration: 800ms;
 }
 
 #navbar_logo {
@@ -70,14 +77,21 @@ h1 {
     line-height: 100%;
     color: black;
     rotate: -10deg;
-    width: 50%;
+    width: 30%;
 }
 
 #order {
     background-color: #ffa101;
     color: black;
     border-radius: 100px;
+    transition-duration: 800ms;
 
+}
+
+#order:hover{
+    color: #31525b;
+   background-color: #fae6b1;
+    transition: ease-in;
 }
 
 /*Section styles*/
@@ -111,6 +125,8 @@ section {
 #signup {
     margin-bottom: 7%;
     background-color: #31525b;
+    background-position: left;
+    background-attachment: fixed;
     width: 20%;
     padding: 1%;
     color: #fae6b1;
@@ -156,13 +172,43 @@ button {
     margin-top: 5%;
     width: 60%;
     border: black solid 4px;
+    transition-duration: 800ms;
 }
 
 button :hover {
     color: #ffa101;
+    border-bottom: #ffa101 solid 1px;
 }
 
+/*Footer Styles */
+footer div #img_pattern{
+background-image: url(/Images/dot_pattern.png);
+background-repeat: repeat-x;
+background-position: center;
+padding-left: 50px;
+padding-right: 50px;
+width: 92%;
+height: 50px;
+opacity: .2;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2rem;
+}
 
+footer h2 {
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family:'Parisienne', cursive;
+}
+
+footer section p {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
 
 
 /*Media Queries*/
@@ -224,7 +270,8 @@ button :hover {
     }
 
     section article {
-        font-size: 5vw;
+        font-size: 4vw;
+        font-family:sans-serif;
         line-height: 350%;
     }
 
@@ -268,6 +315,9 @@ button :hover {
 
     }
 
+   button {
+        padding-bottom: 5%;
+    }
 }
 
 @media (min-width:750px) {
