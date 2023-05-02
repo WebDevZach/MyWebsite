@@ -19,8 +19,8 @@ nav ul {
     display: flex;
     background-color: #31525b;
     justify-content: right;
+    border-bottom: black solid 4px;
 }
-
 
 nav ul li {
     padding: 3% 1vw;
@@ -77,6 +77,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: black solid 4px;
 }
 
 #Nutrition {
@@ -106,7 +107,7 @@ nav ul li a:hover {
 }
 
 
-/* Breakfast Classic Menu */
+/* Breakfast  Menu */
 
 #breakfast {
     display: grid;
@@ -118,50 +119,51 @@ nav ul li a:hover {
     gap: 1em;
     height: 35em;
     width: 60%;
-    }
+}
 
 #eggs {
     background-image: url(/Images/eggs_menu.png);
     background-position: center;
     background-size: cover;
+    border: black solid 2px;
 }
 
 #oatmeal {
     background-image: url('../Images/oatmeal_menu.png');
     background-position: center;
     background-size: cover;
-    
-   
+    border: black solid 2px;
+
 }
 
 #pancakes {
     background-image: url('../Images/pancakes_menu.png');
     background-position: center;
     background-size: cover;
-   
+    border: black solid 2px;
 }
 
 #toast {
     background-image: url('../Images/avocado_toast.png');
     background-position: center;
     background-size: cover;
-  
-   
+    border: black solid 2px;
+
 }
 
 #bacon {
     background-image: url(/Images/maple_bacon_menu.png);
     background-position: center;
     background-size: cover;
-   
-    
+    border: black solid 2px;
+
 }
 
 #omelette {
     background-image: url('../Images/omelete_menu.png');
     background-position: center;
     background-size: cover;
-
+    border: black solid 2px;
 }
 
 #classics {
@@ -175,8 +177,8 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 5em;
-    border: black solid 5px;
-    width: 85%;
+    border-top: black solid 5px;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -189,7 +191,7 @@ nav ul li a:hover {
 
 #early {
     font-size: 3em;
-    font-family:'Norican', cursive;
+    font-family: 'Norican', cursive;
     text-align: center;
     line-height: 1.4em;
     color: #31525b;
@@ -204,10 +206,166 @@ nav ul li a:hover {
 }
 
 
+#menu_drinks h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+}
+
+
+#menu_classics h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+}
+
+#menu_classics h4 {
+    border-bottom: black solid 1px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5em;
+}
+
+
+#menu_drinks h4 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+#menu_classics p {
+margin-bottom: 3em;
+}
+
+
+/*Footer Styles*/
+
+footer div #img_pattern {
+    background-image: url(/Images/dot_pattern.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 92%;
+    height: 50px;
+    opacity: .2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+footer h2 {
+    margin-left: 4%;
+    margin-top: 1em;
+    font-size: 2.5rem;
+    font-family: 'Parisienne';
+}
+
+footer section p {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
 
 
 /* Media Queries */
 @media (max-width:570px) {
+   
+    #breakfast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 0.3em;
+        height: 8em;
+        width: 100%;
+    }
+    
+    #eggs {
+      display: none;
+    }
+    
+    #oatmeal {
+        display: none;
+    }
+    
+    #pancakes {
+        display:none;
+    }
+    
+    #toast {
+        background-image: url('../Images/avocado_toast.png');
+        background-position: center;
+        background-size: cover;
+        border: none;
+  
+    }
+    
+    #bacon {
+        background-image: url(/Images/maple_bacon_menu.png);
+        background-position: center;
+        background-size: cover;
+        border: none;
+        
+    
+    }
+    
+    #omelette {
+        background-image: url('../Images/omelete_menu.png');
+        background-position: center;
+        background-size: cover;
+        border: none;
+      
+    }
+
+
+    #menu {
+        display: block;
+      
+        margin-left: 5em;
+        border-top: black solid 5px;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+
+
+    #breakfastlogo {
+        font-size: 3.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #early {
+        font-size: 3em;
+        font-family: 'Norican', cursive;
+        text-align: center;
+        line-height: 1em;
+        color: #31525b;
+    }
+    
+    #menu_drinks h3 {
+        margin-top: 2em;
+        margin-bottom: 1.25em;
+        font-size: 2.5em;
+    }
+    
+    
+    #menu_classics h3 {
+        margin-top: 2em;
+        margin-bottom: 1.25em;
+        font-size: 2.5em;
+    }
+
+nav ul{
+    border: none;
+}
 
     nav ul li {
         text-align: center;
@@ -238,6 +396,15 @@ nav ul li a:hover {
 
     }
 
+footer h2 {
+    margin-top: 6em;
+}
+
+
+    footer section p {
+        font-size: .9rem;
+    }
+
     #order {
         background-color: #31525b;
         color: #fae6b1;
@@ -249,6 +416,7 @@ nav ul li a:hover {
         height: 120vw;
         position: relative;
         margin-bottom: 15px;
+        border-top: black solid 4px;
     }
 
     #Nutrition {
@@ -272,6 +440,7 @@ nav ul li a:hover {
         left: 25px;
 
     }
+
     #Nutrition {
         text-align: center;
         border: black solid 2px;
@@ -337,34 +506,35 @@ nav ul li a:hover {
         background-color: wheat;
         font-size: 2.5vw;
         line-height: 4.5vw;
-}
-
-@media (min-width:1400px) {
-    h1 {
-        font-size: 6vw;
-    }
-
-    #main_picture {
-        height: 40vw;
     }
 }
 
-@media (min-width:1400px) {
-    #main_picture {
-        height: 45vw;
+    @media (min-width:1400px) {
+        h1 {
+            font-size: 6vw;
+        }
+
+        #main_picture {
+            height: 40vw;
+        }
     }
 
+    @media (min-width:1400px) {
+        #main_picture {
+            height: 45vw;
+        }
 
-}
 
-@media (min-width:1700px) {
-    #Nutrition {
-        text-align: center;
-        border: black solid 2px;
-        width: 13vw;
-        padding: .3vw;
-        background-color: wheat;
-        font-size: 1.25vw;
-        line-height: 3vw;
-}
-}
+    }
+
+    @media (min-width:1700px) {
+        #Nutrition {
+            text-align: center;
+            border: black solid 2px;
+            width: 13vw;
+            padding: .3vw;
+            background-color: wheat;
+            font-size: 1.25vw;
+            line-height: 3vw;
+        }
+    }
