@@ -70,36 +70,12 @@ form {
 }
 
 fieldset {
-margin-bottom: 1em;    
-margin-left: 1em;
-margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-#address {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#email {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#tele {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#full_name {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-#job_title {
+.subsection {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -152,6 +128,7 @@ footer h2 {
     font-size: 2.5rem;
     color: #ffa101;
     font-family: 'Parisienne';
+    border: none;
 }
 
 footer section p {

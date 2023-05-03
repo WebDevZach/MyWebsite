@@ -44,7 +44,7 @@
                 </div>
 
                 <h2>Full Name</h2>
-                <div id="full_name">
+                <div class="subsection">
                     <div>
                         <label for="Fname">First Name</label>
                         <input id="Fname" type="text">
@@ -60,7 +60,7 @@
                 </div>
 
                 <h2>Address</h2>
-                <div id="address">
+                <div class="subsection">
                     <div>
                         <label for="StreetAdd">Street</label>
                         <input id="StreetAdd" type="text">
@@ -73,7 +73,7 @@
 
                     <div>
                         <label for="State">State</label>
-                        <input id="State" type="text">
+                        <input id="State" type="text" value="Ohio">
                     </div>
 
                     <div>
@@ -83,7 +83,7 @@
                 </div>
 
                 <h2>Telephone</h2>
-                <div id="tele">
+                <div class="subsection">
                     <div>
                         <label for="HomePhone">Home</label>
                         <input id="HomePhone" type="tel">
@@ -97,7 +97,7 @@
 
 
                 <h2>Email</h2>
-                <div id="email">
+                <div class="subsection">
                     <div>
                         <label for="emailadd">Email</label>
                         <input id="emailadd" type="email">
@@ -105,11 +105,10 @@
                 </div>
 
                 <div class="title">
-                    <h1>Positon Applying For</h1>
+                    <h1>Positon Information</h1>
                 </div>
 
-                <h2>Job Title</h2>
-                <div id="job_title">
+                <div class="subsection">
                     <div>
                         <label for="jtitle">Applying For</label>
                         <input id="jtitle" type="text" list="jlist">
@@ -131,11 +130,11 @@
                         <legend>Shift Availability</legend>
                         <div>
                             <label for="nights">Nights</label>
-                            <input id="nights" type="radio">
+                            <input id="nights" type="checkbox" name="shift">
                         </div>
                         <div>
                             <label for="days">Days</label>
-                            <input id="days" type="radio">
+                            <input id="days" type="checkbox" name="shift">
                         </div>
                     </fieldset>
 
@@ -144,11 +143,11 @@
                         <legend>May We Contact Present Employer?</legend>
                         <div>
                             <label for="yes">Yes</label>
-                            <input id="yes" type="checkbox">
+                            <input id="yes" type="radio" name="contact">
                         </div>
                         <div>
                             <label for="no">No</label>
-                            <input id="no" type="checkbox">
+                            <input id="no" type="radio" name="contact">
                         </div>
                     </fieldset>
 
@@ -161,15 +160,186 @@
                         <label for="salary">Minimum Acceptable Salary</label>
                         <input id="salary" type="text">
                     </div>
+                </div>
 
+
+                <div class="title">
+                    <h1>Education</h1>
+                </div>
+
+                <h2>High School Education</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="hs">High School Name</label>
+                        <input id="hs" type="text">
+                    </div>
+
+                    <fieldset>
+                        <legend>Graduated?</legend>
+                        <div>
+                            <label for="yes">Yes</label>
+                            <input id="yes" type="radio" name="grad">
+                        </div>
+                        <div>
+                            <label for="no">No</label>
+                            <input id="no" type="radio" name="grad">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <h2>College Education</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="hs">College Name</label>
+                        <input id="hs" type="text">
+                    </div>
+
+                    <div>
+                        <label for="degree">Degree</label>
+                        <input id="degree" type="text">
+                    </div>
                 </div>
 
 
 
+                <div class="title">
+                    <h1>Job History</h1>
+                </div>
 
+                <h2>Current Employer</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="Cname">Company Name</label>
+                        <input id="Cname" type="text">
+                    </div>
+                    <div>
+                        <label for="Caddress">Address</label>
+                        <input id="Caddress" type="text">
+                    </div>
+                    <div>
+                        <label for="Ccity">City</label>
+                        <input id="Ccity" type="text">
+                    </div>
+                    <div>
+                        <label for="Czip">Zip Code</label>
+                        <input id="Czip" type="text">
+                    </div>
+                    <div>
+                        <label for="Cphone">Telephone Number</label>
+                        <input id="Cphone" type="tel">
+                    </div>
+                    <div>
+                        <label for="startdate">Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                </div>
 
+                <h2>Previos Employer #1</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="Cname">Company Name</label>
+                        <input id="Cname" type="text">
+                    </div>
+                    <div>
+                        <label for="Caddress">Address</label>
+                        <input id="Caddress" type="text">
+                    </div>
+                    <div>
+                        <label for="Ccity">City</label>
+                        <input id="Ccity" type="text">
+                    </div>
+                    <div>
+                        <label for="Czip">Zip Code</label>
+                        <input id="Czip" type="text">
+                    </div>
+                    <div>
+                        <label for="Cphone">Telephone Number</label>
+                        <input id="Cphone" type="tel">
+                    </div>
+                    <div>
+                        <label for="startdate">Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                    <div>
+                        <label for="enddate">End Date</label>
+                        <input id="enddate" type="date">
+                    </div>
+                </div>
+
+                <h2>Previos Employer #2</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="Cname">Company Name</label>
+                        <input id="Cname" type="text">
+                    </div>
+                    <div>
+                        <label for="Caddress">Address</label>
+                        <input id="Caddress" type="text">
+                    </div>
+                    <div>
+                        <label for="Ccity">City</label>
+                        <input id="Ccity" type="text">
+                    </div>
+                    <div>
+                        <label for="Czip">Zip Code</label>
+                        <input id="Czip" type="text">
+                    </div>
+                    <div>
+                        <label for="Cphone">Telephone Number</label>
+                        <input id="Cphone" type="tel">
+                    </div>
+                    <div>
+                        <label for="startdate">Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                    <div>
+                        <label for="enddate">End Date</label>
+                        <input id="enddate" type="date">
+                    </div>
+                </div>
+
+                <h2>Previos Employer #3</h2>
+                <div class="subsection">
+                    <div>
+                        <label for="Cname">Company Name</label>
+                        <input id="Cname" type="text">
+                    </div>
+                    <div>
+                        <label for="Caddress">Address</label>
+                        <input id="Caddress" type="text">
+                    </div>
+                    <div>
+                        <label for="Ccity">City</label>
+                        <input id="Ccity" type="text">
+                    </div>
+                    <div>
+                        <label for="Czip">Zip Code</label>
+                        <input id="Czip" type="text">
+                    </div>
+                    <div>
+                        <label for="Cphone">Telephone Number</label>
+                        <input id="Cphone" type="tel">
+                    </div>
+                    <div>
+                        <label for="startdate">Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                    <div>
+                        <label for="enddate">End Date</label>
+                        <input id="enddate" type="date">
+                    </div>
+                </div>
             </form>
         </section>
+
+        <footer>
+            <div>
+                <h2>Early Bird</h2>
+                <div id="img_pattern"></div>
+            </div>
+            <section>
+                <p> Established April 2023 | 200 Sunset Rd. Schmeckles, OH 45531 | 555.555.5555</p>
+            </section>
 </body>
 
 </html>
