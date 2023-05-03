@@ -236,7 +236,7 @@ nav ul li a:hover {
 }
 
 #menu_classics p {
-margin-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 
@@ -274,7 +274,7 @@ footer section p {
 
 /* Media Queries */
 @media (max-width:570px) {
-   
+
     #breakfast {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -286,48 +286,48 @@ footer section p {
         height: 8em;
         width: 100%;
     }
-    
+
     #eggs {
-      display: none;
+        display: none;
     }
-    
+
     #oatmeal {
         display: none;
     }
-    
+
     #pancakes {
-        display:none;
+        display: none;
     }
-    
+
     #toast {
         background-image: url('../Images/avocado_toast.png');
         background-position: center;
         background-size: cover;
         border: none;
-  
+
     }
-    
+
     #bacon {
         background-image: url(/Images/maple_bacon_menu.png);
         background-position: center;
         background-size: cover;
         border: none;
-        
-    
+
+
     }
-    
+
     #omelette {
         background-image: url('../Images/omelete_menu.png');
         background-position: center;
         background-size: cover;
         border: none;
-      
+
     }
 
 
     #menu {
         display: block;
-      
+
         margin-left: 5em;
         border-top: black solid 5px;
         width: 65%;
@@ -341,7 +341,7 @@ footer section p {
         font-size: 3.5em;
         font-family: 'Times New Roman', Times, serif;
     }
-    
+
     #early {
         font-size: 3em;
         font-family: 'Norican', cursive;
@@ -349,23 +349,23 @@ footer section p {
         line-height: 1em;
         color: #31525b;
     }
-    
+
     #menu_drinks h3 {
         margin-top: 2em;
         margin-bottom: 1.25em;
         font-size: 2.5em;
     }
-    
-    
+
+
     #menu_classics h3 {
         margin-top: 2em;
         margin-bottom: 1.25em;
         font-size: 2.5em;
     }
 
-nav ul{
-    border: none;
-}
+    nav ul {
+        border: none;
+    }
 
     nav ul li {
         text-align: center;
@@ -396,13 +396,15 @@ nav ul{
 
     }
 
-footer h2 {
-    margin-top: 6em;
-}
+    footer h2 {
+        margin-top: 6em;
+    }
 
 
     footer section p {
-        font-size: .9rem;
+            font-size: 10px;
+            white-space: nowrap;
+        }
     }
 
     #order {
@@ -509,32 +511,32 @@ footer h2 {
     }
 }
 
-    @media (min-width:1400px) {
-        h1 {
-            font-size: 6vw;
-        }
-
-        #main_picture {
-            height: 40vw;
-        }
+@media (min-width:1400px) {
+    h1 {
+        font-size: 6vw;
     }
 
-    @media (min-width:1400px) {
-        #main_picture {
-            height: 45vw;
-        }
+    #main_picture {
+        height: 40vw;
+    }
+}
 
-
+@media (min-width:1400px) {
+    #main_picture {
+        height: 45vw;
     }
 
-    @media (min-width:1700px) {
-        #Nutrition {
-            text-align: center;
-            border: black solid 2px;
-            width: 13vw;
-            padding: .3vw;
-            background-color: wheat;
-            font-size: 1.25vw;
-            line-height: 3vw;
-        }
+
+}
+
+@media (min-width:1700px) {
+    #Nutrition {
+        text-align: center;
+        border: black solid 2px;
+        width: 13vw;
+        padding: .3vw;
+        background-color: wheat;
+        font-size: 1.25vw;
+        line-height: 3vw;
     }
+}
