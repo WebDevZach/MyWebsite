@@ -105,11 +105,21 @@ input {
     border-bottom: black solid 3px;
 }
 
+#submit {
+ display: flex;
+ justify-content: center;   
+}
+
+#submit input {
+    padding: 1em;
+    font-size: 1rem;
+}
+
 /*Footer Styles */
 
 
 footer div #img_pattern {
-    background-image: url(/Images/dot_pattern.png);
+    background-image: url('../Images/dot_pattern.png');
     background-repeat: repeat-x;
     background-position: center;
     padding-left: 50px;
@@ -152,6 +162,7 @@ footer section p {
         display: block;
         width: 100%;
         border: none;
+        background-color:#fae6b1;
     }
 
     nav ul li a {
@@ -168,6 +179,10 @@ footer section p {
     footer section p {
         font-size: 10px;
         white-space: nowrap;
+    }
+
+    form {
+        width: 100%;
     }
 
 }

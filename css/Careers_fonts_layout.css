@@ -203,7 +203,7 @@ nav ul li a:hover {
 
 
 footer div #img_pattern {
-    background-image: url(/Images/dot_pattern.png);
+    background-image: url('../Images/dot_pattern.png');
     background-repeat: repeat-x;
     background-position: center;
     padding-left: 50px;

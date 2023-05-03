@@ -120,7 +120,7 @@ table td {
 /*Footer Styles*/
 
 footer div #img_pattern {
-    background-image: url(/Images/dot_pattern.png);
+    background-image: url('../Images/dot_pattern.png');
     background-repeat: repeat-x;
     background-position: center;
     padding-left: 50px;
@@ -232,7 +232,7 @@ footer section p {
             font-size: 10px;
             white-space: nowrap;
         }
-    }
+    
 
     #order {
         background-color: #31525b;

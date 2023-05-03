@@ -180,7 +180,7 @@ button :hover {
 
 /*Footer Styles */
 footer div #img_pattern {
-    background-image: url(/Images/dot_pattern.png);
+    background-image: url('../Images/dot_pattern.png');
     background-repeat: repeat-x;
     background-position: center;
     padding-left: 50px;
@@ -361,7 +361,7 @@ footer section p {
         width: 80%;
         margin-right: auto;
         margin-left: auto;
-        background-image: url('../Images/orange_newsletter_pic.png');
+        background-image: url('../Images/mobile_orange.png');
         background-size: cover;
     }
 
