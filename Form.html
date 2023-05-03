@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Form_fonts_layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <ul>
+                <li>
+                    <a href="./Homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="./Menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="./Careers.html">Careers</a>
+                </li>
+                <li>
+                    <a href="" id="order">Order</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <form action="">
+
+
+                <div class="title">
+                    <h1>Personal Info</h1>
+                </div>
+
+                <h2>Full Name</h2>
+                <div id="full_name">
+                    <div>
+                        <label for="Fname">First Name</label>
+                        <input id="Fname" type="text">
+                    </div>
+                    <div>
+                        <label for="Lname">Last Name</label>
+                        <input id="Lname" type="text">
+                    </div>
+                    <div>
+                        <label for="M_int">Middle Int</label>
+                        <input id="M_int" type="text">
+                    </div>
+                </div>
+
+                <h2>Address</h2>
+                <div id="address">
+                    <div>
+                        <label for="StreetAdd">Street</label>
+                        <input id="StreetAdd" type="text">
+                    </div>
+
+                    <div>
+                        <label for="City">City</label>
+                        <input id="City" type="text">
+                    </div>
+
+                    <div>
+                        <label for="State">State</label>
+                        <input id="State" type="text">
+                    </div>
+
+                    <div>
+                        <label for="Zip">Zip Code</label>
+                        <input id="Zip" type="text">
+                    </div>
+                </div>
+
+                <h2>Telephone</h2>
+                <div id="tele">
+                    <div>
+                        <label for="HomePhone">Home</label>
+                        <input id="HomePhone" type="tel">
+                    </div>
+
+                    <div>
+                        <label for="CellPhone">Cell</label>
+                        <input id="CellPhone" type="tel">
+                    </div>
+                </div>
+
+
+                <h2>Email</h2>
+                <div id="email">
+                    <div>
+                        <label for="emailadd">Email</label>
+                        <input id="emailadd" type="email">
+                    </div>
+                </div>
+
+                <div class="title">
+                    <h1>Positon Applying For</h1>
+                </div>
+
+                <h2>Job Title</h2>
+                <div id="job_title">
+                    <div>
+                        <label for="jtitle">Applying For</label>
+                        <input id="jtitle" type="text" list="jlist">
+                        <datalist id="jlist">
+                            <option value="Shift Leader - Dayton">
+                            <option value="Shift Leader - Cleveland">
+                            <option value="District Manager - Toledo">
+                            <option value="Store Manager - Kettering">
+                            <option value="Service Team Member - Cleveland">
+                            <option value="Service Team Member - Kettering">
+                            <option value="Service Team Member - Toledo">
+                            <option value="Culinary Team Member - Columbus">
+                            <option value="Culinary Team Member - Dayton">
+                        </datalist>
+                    </div>
+
+
+                    <fieldset>
+                        <legend>Shift Availability</legend>
+                        <div>
+                            <label for="nights">Nights</label>
+                            <input id="nights" type="radio">
+                        </div>
+                        <div>
+                            <label for="days">Days</label>
+                            <input id="days" type="radio">
+                        </div>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>May We Contact Present Employer?</legend>
+                        <div>
+                            <label for="yes">Yes</label>
+                            <input id="yes" type="checkbox">
+                        </div>
+                        <div>
+                            <label for="no">No</label>
+                            <input id="no" type="checkbox">
+                        </div>
+                    </fieldset>
+
+                    <div>
+                        <label for="start">Available Start Date</label>
+                        <input id="start" type="date">
+                    </div>
+
+                    <div>
+                        <label for="salary">Minimum Acceptable Salary</label>
+                        <input id="salary" type="text">
+                    </div>
+
+                </div>
+
+
+
+
+
+            </form>
+        </section>
+</body>
+
+</html>
