@@ -28,17 +28,12 @@ nav ul {
 
 nav ul li {
     padding: 3% 1vw;
+    color: white;
 }
 
 nav ul li a {
     color: #fae6b1;
     padding: 15px;
-    transition-duration: 800ms;
-}
-
-nav ul li a:hover {
-    color: #ffa101;
-    border-bottom: #fae6b1 solid 1px;
     transition-duration: 800ms;
 }
 
@@ -51,36 +46,11 @@ nav ul li a:hover {
 
 
 #navbar_logoz {
-    width: 0px;
+    display: none;
 }
 
 
 
-h1 {
-    font-family: 'Norican', cursive;
-    margin-left: 20%;
-    top: 10%;
-    left: 20%;
-    font-size: 7vw;
-    line-height: 100%;
-    color: black;
-    rotate: -10deg;
-    width: 30%;
-}
-
-#order {
-    background-color: #ffa101;
-    color: black;
-    border-radius: 100px;
-    transition-duration: 800ms;
-
-}
-
-#order:hover {
-    color: #31525b;
-    background-color: #fae6b1;
-    transition: ease-in;
-}
 
 /*Section styles*/
 
@@ -142,6 +112,41 @@ footer section p {
     font-family: sans-serif;
     font-size: 1.25rem;
 }
+
+
+
+
+
+
+
+#main {
+    position: relative;
+    border: black solid 3px;
+}
+
+#meep {
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Media Queries*/
