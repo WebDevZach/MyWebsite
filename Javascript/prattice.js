@@ -23,13 +23,18 @@ function meep() {
 add.addEventListener("click", adds);
 remove.addEventListener("click", removes);
 
+var num = 0;
 
 function adds() {
-        meeps.innerHTML += "<p>hello</p>";
+    num++;
+    meeps.innerHTML += `<p id="item_${num}">hello</p>`
+    console.log(num);
 }
 
 function removes() {
-
-    meeps.innerHTML = "";
+    var trash = document.getElementById("item_" + num + "");
+    num--;
+    meeps.removeChild(trash);
 
 }
+
